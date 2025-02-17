@@ -10,3 +10,4 @@ while True:
         print("Introduceti un nr intreg")
         break
     print(number)
+//primul code
