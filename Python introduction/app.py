@@ -10,7 +10,6 @@ while True:
         print("Introduceti un nr intreg")
         break
     print(number)
-//primul code
     if not number:
         print("Lista este goala")
     else:
@@ -22,5 +21,5 @@ while True:
         print("Elementul minim: ", max(number))
         print("Elementul minim: ", sum(number))
         print("Media Aritmetica: ",
-              sum(number) / len(number)
+              sum(number) / len(number))
         print("Total elemente: ", len(number))
