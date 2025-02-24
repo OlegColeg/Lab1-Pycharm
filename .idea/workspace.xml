@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="342cdf49-672a-40f0-a93c-61c8e6191548" name="Changes" comment="traning example finis">
-      <change afterPath="$PROJECT_DIR$/LAB1/Laborator 1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python introduction/traning 2.py" afterDir="false" />
+    <list default="true" id="342cdf49-672a-40f0-a93c-61c8e6191548" name="Changes" comment="Create a folder Lab1 and new branch and file lab 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB1/Laborator 1.py" beforeDir="false" afterPath="$PROJECT_DIR$/LAB1/Laborator 1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +57,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.Lab1.executor": "Run",
+    "Python.Laborator 1.executor": "Run",
     "Python.app.executor": "Run",
     "Python.traning 2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -72,6 +72,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -94,7 +99,7 @@
       <workItem from="1739781615469" duration="3000" />
       <workItem from="1739781634170" duration="2000" />
       <workItem from="1739781719290" duration="3250000" />
-      <workItem from="1740383819173" duration="401000" />
+      <workItem from="1740383819173" duration="2438000" />
     </task>
     <task id="LOCAL-00001" summary="ready">
       <option name="closed" value="true" />
@@ -168,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739782748225</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Create a folder Lab1 and new branch and file lab 1">
+      <option name="closed" value="true" />
+      <created>1740384250751</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1740384250751</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,10 +203,23 @@
     <MESSAGE value="connect git" />
     <MESSAGE value="connect git si primul cod" />
     <MESSAGE value="traning example finis" />
-    <option name="LAST_COMMIT_MESSAGE" value="traning example finis" />
+    <MESSAGE value="Create a folder Lab1 and new branch and file lab 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create a folder Lab1 and new branch and file lab 1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/LAB1/Laborator 1.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonProject$traning_2.coverage" NAME="traning 2 Coverage Results" MODIFIED="1739783150139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python introduction" />
+    <SUITE FILE_PATH="coverage/PythonProject$Laborator_1.coverage" NAME="Laborator 1 Coverage Results" MODIFIED="1740385815996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LAB1" />
     <SUITE FILE_PATH="coverage/PythonProject$Lab1.coverage" NAME="Lab1 Coverage Results" MODIFIED="1739782685425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python introduction" />
     <SUITE FILE_PATH="coverage/PythonProject$app.coverage" NAME="app Coverage Results" MODIFIED="1739781345616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python introduction" />
   </component>
