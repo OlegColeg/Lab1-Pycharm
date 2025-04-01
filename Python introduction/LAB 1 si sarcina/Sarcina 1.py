@@ -1,26 +1,17 @@
-# Exercițiul 107: Evitarea Duplicatelor
-def evitare_duplicate():
-    # Creăm o listă goală pentru cuvintele unice
-    cuvinte_unice = []
 
-    # Cerem utilizatorului să introducă cuvinte
-    print("Introduceți cuvinte (linie goală pentru a termina):")
+cuvinte_unice = []
 
-    # Continuăm să cerem cuvinte până când primim o linie goală
-    while True:
-        cuvant = input()
+print("Introduceți cuvinte (linie goală pentru a termina):")
 
-        # Verificăm dacă linia este goală pentru a ieși din buclă
-        if cuvant == "":
-            break
+while True:
+    cuvant = input()
 
-        # Adăugăm cuvântul doar dacă nu există deja în listă
-        if cuvant not in cuvinte_unice:
-            cuvinte_unice.append(cuvant)
+    if cuvant == "":
+        break
 
-    # Afișăm toate cuvintele unice
-    print("Cuvintele unice în ordine sunt:")
-    for cuvant in cuvinte_unice:
-        print(cuvant)
+    if cuvant not in cuvinte_unice:
+        cuvinte_unice.append(cuvant)
 
-
+print("Cuvintele unice în ordine sunt:")
+for cuvant in cuvinte_unice:
+    print(cuvant)
