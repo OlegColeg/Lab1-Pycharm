@@ -98,6 +98,7 @@ print(numeric_cols)
 # Pasul 5: Calcularea statisticilor cerute pentru fiecare coloană
 print("\n=== STATISTICI GRUPATE PE TIPUL DE VIN ===")
 
+
 # Funcție pentru calculul modei
 def get_mode(x):
     mode_result = stats.mode(x)
@@ -106,6 +107,7 @@ def get_mode(x):
         return mode_result.mode[0]
     else:
         return mode_result[0][0]
+
 
 # Inițializăm dicționarul pentru statistici
 statistics = {}
@@ -163,7 +165,7 @@ for col in numeric_cols:
 plt.figure(figsize=(15, 12))
 
 for i, col in enumerate(numeric_cols):
-    plt.subplot(4, 3, i+1)
+    plt.subplot(4, 3, i + 1)
     sns.boxplot(x='type', y=col, data=wines)
     plt.title(f'Boxplot: {col} vs Type')
     plt.tight_layout()
@@ -176,7 +178,7 @@ plt.close()
 plt.figure(figsize=(15, 12))
 
 for i, col in enumerate(numeric_cols):
-    plt.subplot(4, 3, i+1)
+    plt.subplot(4, 3, i + 1)
     sns.kdeplot(data=wines, x=col, hue='type', fill=True, common_norm=False, alpha=.5)
     plt.title(f'Densitate: {col} per Type')
     plt.tight_layout()
@@ -217,7 +219,7 @@ top_features = [corr[0] for corr in correlations[:5]]
 
 plt.figure(figsize=(15, 10))
 for i, feature in enumerate(top_features):
-    plt.subplot(2, 3, i+1)
+    plt.subplot(2, 3, i + 1)
     sns.scatterplot(x=feature, y='type_numeric', data=wines, alpha=0.3)
     plt.title(f'{feature} vs Type (corr={correlations[i][1]:.4f})')
     plt.ylabel('Type (0=red, 1=white)')
@@ -230,7 +232,7 @@ plt.close()
 # Pasul 9: Vizualizarea distribuției celor mai importante caracteristici
 plt.figure(figsize=(15, 10))
 for i, feature in enumerate(top_features[:5]):
-    plt.subplot(2, 3, i+1)
+    plt.subplot(2, 3, i + 1)
     sns.histplot(data=wines, x=feature, hue='type', kde=True,
                  element="step", palette=['red', 'skyblue'], bins=30)
     plt.title(f'Distribuția {feature}')
@@ -245,7 +247,7 @@ print("\n=== EXPLICAREA REZULTATELOR ===")
 print("Din analiză, am identificat următoarele caracteristici cu cea mai mare corelație cu tipul de vin:")
 
 for i, (feature, corr) in enumerate(correlations[:5]):
-    print(f"\n{i+1}. {feature} (corelație: {corr:.4f}):")
+    print(f"\n{i + 1}. {feature} (corelație: {corr:.4f}):")
     print(f"   - Media pentru vinul roșu: {statistics[feature].loc['red', 'Medie']:.4f}")
     print(f"   - Media pentru vinul alb: {statistics[feature].loc['white', 'Medie']:.4f}")
     print(f"   - Diferența: {statistics[feature].loc['white', 'Medie'] - statistics[feature].loc['red', 'Medie']:.4f}")
@@ -259,8 +261,10 @@ for i, (feature, corr) in enumerate(correlations[:5]):
         print("   a preveni oxidarea și dezvoltarea bacteriilor nedorite.")
 
     elif feature == 'chlorides':
-        print("   Explicație: Clorurile (mineralele de sare) sunt mai abundente în vinurile roșii. Acest lucru se datorează")
-        print("   procesului de macerare, unde pielea strugurilor roșii eliberează mai multe minerale, inclusiv săruri.")
+        print(
+            "   Explicație: Clorurile (mineralele de sare) sunt mai abundente în vinurile roșii. Acest lucru se datorează")
+        print(
+            "   procesului de macerare, unde pielea strugurilor roșii eliberează mai multe minerale, inclusiv săruri.")
         print("   De asemenea, strugurii roșii sunt adesea cultivați în soluri cu un conținut mai ridicat de minerale.")
         print("   Vinurile albe au un conținut mai redus de cloruri, contribuind la profilul lor mai proaspăt și acid.")
 
@@ -269,7 +273,8 @@ for i, (feature, corr) in enumerate(correlations[:5]):
         print("   malolactică, care transformă acidul malic în acid lactic, eliberând compuși volatili.")
         print("   Vinurile roșii sunt adesea fermentate la temperaturi mai ridicate și pentru perioade mai lungi,")
         print("   ceea ce poate conduce la niveluri mai ridicate de acizi volatili, în special acid acetic.")
-        print("   Vinurile albe sunt de obicei fermentate la temperaturi mai scăzute, păstrând aciditatea volatilă redusă.")
+        print(
+            "   Vinurile albe sunt de obicei fermentate la temperaturi mai scăzute, păstrând aciditatea volatilă redusă.")
 
     elif feature == 'free sulfur dioxide':
         print("   Explicație: SO2 liber este mai mare în vinurile albe pentru a le proteja împotriva oxidării")
@@ -290,7 +295,7 @@ print("diferențe semnificative care permit distingerea acestora. Aceste diferen
 print("compoziția chimică naturală a strugurilor, cât și diferitele tehnici de vinificație utilizate.")
 print("\nCele mai distinctive caracteristici sunt:")
 for i, (feature, corr) in enumerate(correlations[:3]):
-    print(f"{i+1}. {feature} (corelație: {corr:.4f})")
+    print(f"{i + 1}. {feature} (corelație: {corr:.4f})")
 
 print("\nAceste caracteristici oferă o bază solidă pentru clasificarea automată a vinurilor folosind")
 print("algoritmi de Machine Learning. Diferențele chimice identificate sunt direct legate de procesele")

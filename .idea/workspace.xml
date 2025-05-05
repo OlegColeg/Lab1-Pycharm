@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="342cdf49-672a-40f0-a93c-61c8e6191548" name="Changes" comment="Sarcina lab 2,SI 4" />
+    <list default="true" id="342cdf49-672a-40f0-a93c-61c8e6191548" name="Changes" comment="Sarcina lab 2,SI 4">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python introduction/LAB4/winequality.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python introduction/LAB4/winequality.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -231,7 +234,7 @@
       <workItem from="1744269953881" duration="610000" />
       <workItem from="1744390387469" duration="16000" />
       <workItem from="1744702270050" duration="2685000" />
-      <workItem from="1746423236203" duration="1541000" />
+      <workItem from="1746423236203" duration="2498000" />
     </task>
     <task id="LOCAL-00001" summary="ready">
       <option name="closed" value="true" />
@@ -313,7 +316,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746424764541</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Sarcina lab 2,SI 4">
+      <option name="closed" value="true" />
+      <created>1746424859611</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1746424859611</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,6 +359,6 @@
     <SUITE FILE_PATH="coverage/PythonProject$Lab1.coverage" NAME="Lab1 Coverage Results" MODIFIED="1742803619443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python introduction/LAB 1 si sarcina" />
     <SUITE FILE_PATH="coverage/PythonProject$Sarcina_2.coverage" NAME="Sarcina 2 Coverage Results" MODIFIED="1742803614254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python introduction/LAB 1 si sarcina" />
     <SUITE FILE_PATH="coverage/PythonProject$app.coverage" NAME="app Coverage Results" MODIFIED="1739781345616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python introduction" />
-    <SUITE FILE_PATH="coverage/PythonProject$winequality.coverage" NAME="winequality Coverage Results" MODIFIED="1746424555204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python introduction/LAB4" />
+    <SUITE FILE_PATH="coverage/PythonProject$winequality.coverage" NAME="winequality Coverage Results" MODIFIED="1746425725621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python introduction/LAB4" />
   </component>
 </project>
