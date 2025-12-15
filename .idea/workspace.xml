@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="342cdf49-672a-40f0-a93c-61c8e6191548" name="Changes" comment="lucrarea 3 dar lucrearea 2 nu lucreaza interfata grafica">
+    <list default="true" id="342cdf49-672a-40f0-a93c-61c8e6191548" name="Changes" comment="LUCREA 2 in line">
+      <change afterPath="$PROJECT_DIR$/Criptarea/LAB4/lab 4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Criptarea/LAB4/lucrarea 5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Criptarea/LAB5/sarcina_2_1_rsa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Criptarea/LAB5/sarcina_2_2_elgamal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Criptarea/LAB5/sarcina_3_diffie_hellman_aes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Criptarea/LAB2/Lab 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Criptarea/LAB2/Lab 2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,37 +56,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.ClasificareSet.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LAB 2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lab 2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lab1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lab4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Sarcina 1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Sarcina 2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.app.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lab1.2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lab1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.sar 3.1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.sar 3.2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.sarcina 3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.winequality.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/macbook/PycharmProjects/Lab1-Pycharm/Python introduction&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.ClasificareSet.executor": "Run",
+    "Python.LAB 2.executor": "Run",
+    "Python.Lab 2.executor": "Run",
+    "Python.Lab1.executor": "Run",
+    "Python.Lab4.executor": "Run",
+    "Python.Sarcina 1.executor": "Run",
+    "Python.Sarcina 2.executor": "Run",
+    "Python.app.executor": "Run",
+    "Python.des_sarcina_2_4_1.executor": "Run",
+    "Python.lab 4.executor": "Run",
+    "Python.lab1.2.executor": "Run",
+    "Python.lab1.executor": "Run",
+    "Python.lucrarea 5.executor": "Run",
+    "Python.raport practica.executor": "Run",
+    "Python.sar 3.1.executor": "Run",
+    "Python.sar 3.2.executor": "Run",
+    "Python.sarcina 3.executor": "Run",
+    "Python.sarcina_2_1_rsa.executor": "Run",
+    "Python.sarcina_2_2_elgamal.executor": "Run",
+    "Python.winequality.executor": "Run",
+    "Python.word.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/macbook/PycharmProjects/Lab1-Pycharm/Criptarea/LAB5",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Criptarea/LAB5" />
       <recent name="$PROJECT_DIR$/Python introduction" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -93,8 +105,8 @@
       <recent name="$PROJECT_DIR$/Python introduction/LAB4" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Lab 2">
-    <configuration name="Lab 2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.sarcina_2_2_elgamal">
+    <configuration name="des_sarcina_2_4_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -103,12 +115,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Criptarea" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Criptarea/LAB2/Lab 2.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/des_sarcina_2_4_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -117,7 +129,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Lab 2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="lab 4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -126,12 +138,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Criptarea" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Criptarea/LAB4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Criptarea/LAB2/Lab 2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Criptarea/LAB4/lab 4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -140,7 +152,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lab1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="lucrarea 5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -149,12 +161,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Criptarea" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Criptarea/LAB4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Criptarea/LAB1/lab1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Criptarea/LAB4/lucrarea 5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,7 +175,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lab1.2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="sarcina_2_1_rsa" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -172,12 +184,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Criptarea" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Criptarea/LAB1/lab1.2.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/sarcina_2_1_rsa.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -186,7 +198,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lab1.2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="sarcina_2_2_elgamal" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -195,127 +207,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Criptarea" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Criptarea/LAB5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Criptarea/LAB1/lab1.2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="lab1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Criptarea" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Criptarea/LAB1/lab1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="sar 3.1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Criptarea/LAB3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Criptarea/LAB3/sar 3.1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="sar 3.1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Criptarea/LAB3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Criptarea/LAB3/sar 3.1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="sar 3.2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Criptarea/LAB3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Criptarea/LAB3/sar 3.2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="sar 3.2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Criptarea/LAB3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Criptarea/LAB3/sar 3.2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Criptarea/LAB5/sarcina_2_2_elgamal.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -326,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Lab 2" />
-        <item itemvalue="Python.sar 3.2" />
-        <item itemvalue="Python.sar 3.1" />
-        <item itemvalue="Python.lab1" />
-        <item itemvalue="Python.lab1.2" />
+        <item itemvalue="Python.sarcina_2_2_elgamal" />
+        <item itemvalue="Python.sarcina_2_1_rsa" />
+        <item itemvalue="Python.lab 4" />
+        <item itemvalue="Python.des_sarcina_2_4_1" />
+        <item itemvalue="Python.lucrarea 5" />
       </list>
     </recent_temporary>
   </component>
@@ -372,7 +269,16 @@
       <workItem from="1758012332865" duration="3721000" />
       <workItem from="1758185326694" duration="2638000" />
       <workItem from="1759298030788" duration="9308000" />
-      <workItem from="1759727546679" duration="3201000" />
+      <workItem from="1759727546679" duration="4451000" />
+      <workItem from="1759820784302" duration="1766000" />
+      <workItem from="1759823983539" duration="432000" />
+      <workItem from="1760086361103" duration="2710000" />
+      <workItem from="1760441298326" duration="942000" />
+      <workItem from="1765174427933" duration="7289000" />
+      <workItem from="1765272127806" duration="3016000" />
+      <workItem from="1765527655444" duration="244000" />
+      <workItem from="1765527920818" duration="8587000" />
+      <workItem from="1765781547062" duration="983000" />
     </task>
     <task id="LOCAL-00001" summary="ready">
       <option name="closed" value="true" />
@@ -478,7 +384,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759727874394</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="LUCREA 2 in line">
+      <option name="closed" value="true" />
+      <created>1759731268845</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1759731268845</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -504,24 +418,32 @@
     <MESSAGE value="Sarcina lab 2,SI 4" />
     <MESSAGE value="toate gata" />
     <MESSAGE value="lucrarea 3 dar lucrearea 2 nu lucreaza interfata grafica" />
-    <option name="LAST_COMMIT_MESSAGE" value="lucrarea 3 dar lucrearea 2 nu lucreaza interfata grafica" />
+    <MESSAGE value="LUCREA 2 in line" />
+    <option name="LAST_COMMIT_MESSAGE" value="LUCREA 2 in line" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Lab1_Pycharm$lab1_2.coverage" NAME="lab1.2 Coverage Results" MODIFIED="1757487423846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Criptarea" />
     <SUITE FILE_PATH="coverage/PythonProject$LAB_2.coverage" NAME="LAB 2 Coverage Results" MODIFIED="1746423590589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python introduction/LAB2" />
+    <SUITE FILE_PATH="coverage/Lab1_Pycharm$des_sarcina_2_4_1.coverage" NAME="des_sarcina_2_4_1 Coverage Results" MODIFIED="1765531925507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" />
     <SUITE FILE_PATH="coverage/PythonProject$Laborator_1.coverage" NAME="Laborator 1 Coverage Results" MODIFIED="1740385815996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LAB1" />
     <SUITE FILE_PATH="coverage/PythonProject$traning_2.coverage" NAME="traning 2 Coverage Results" MODIFIED="1739783150139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python introduction" />
     <SUITE FILE_PATH="coverage/Lab1_Pycharm$sar_3_2.coverage" NAME="sar 3.2 Coverage Results" MODIFIED="1759727813293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Criptarea/LAB3" />
+    <SUITE FILE_PATH="coverage/Lab1_Pycharm$word.coverage" NAME="word Coverage Results" MODIFIED="1765273562024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Criptarea/LAB4" />
     <SUITE FILE_PATH="coverage/PythonProject$Sarcina_1.coverage" NAME="Sarcina 1 Coverage Results" MODIFIED="1742805877457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python introduction/LAB 1 si sarcina" />
     <SUITE FILE_PATH="coverage/Lab1_Pycharm$lab1.coverage" NAME="lab1 Coverage Results" MODIFIED="1758012416044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Criptarea" />
+    <SUITE FILE_PATH="coverage/Lab1_Pycharm$lab_4.coverage" NAME="lab 4 Coverage Results" MODIFIED="1765531952146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Criptarea/LAB4" />
+    <SUITE FILE_PATH="coverage/Lab1_Pycharm$sarcina_2_2_elgamal.coverage" NAME="sarcina_2_2_elgamal Coverage Results" MODIFIED="1765782455704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Criptarea/LAB5" />
     <SUITE FILE_PATH="coverage/PythonProject$Lab1.coverage" NAME="Lab1 Coverage Results" MODIFIED="1742803619443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python introduction/LAB 1 si sarcina" />
+    <SUITE FILE_PATH="coverage/Lab1_Pycharm$lucrarea_5.coverage" NAME="lucrarea 5 Coverage Results" MODIFIED="1765527980153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Criptarea/LAB4" />
     <SUITE FILE_PATH="coverage/PythonProject$Sarcina_2.coverage" NAME="Sarcina 2 Coverage Results" MODIFIED="1742803614254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python introduction/LAB 1 si sarcina" />
     <SUITE FILE_PATH="coverage/Lab1_Pycharm$ClasificareSet.coverage" NAME="ClasificareSet Coverage Results" MODIFIED="1747379459067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python introduction/LAB 5" />
     <SUITE FILE_PATH="coverage/PythonProject$app.coverage" NAME="app Coverage Results" MODIFIED="1739781345616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python introduction" />
     <SUITE FILE_PATH="coverage/PythonProject$winequality.coverage" NAME="winequality Coverage Results" MODIFIED="1746425725621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python introduction/LAB4" />
     <SUITE FILE_PATH="coverage/Lab1_Pycharm$sar_3_1.coverage" NAME="sar 3.1 Coverage Results" MODIFIED="1759727801232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Criptarea/LAB3" />
     <SUITE FILE_PATH="coverage/PythonProject$sarcina_3.coverage" NAME="sarcina 3 Coverage Results" MODIFIED="1742805907395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python introduction/LAB 1 si sarcina" />
+    <SUITE FILE_PATH="coverage/Lab1_Pycharm$raport_practica.coverage" NAME="raport practica Coverage Results" MODIFIED="1765272199740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Criptarea/LAB4" />
     <SUITE FILE_PATH="coverage/Lab1_Pycharm$Lab4.coverage" NAME="Lab4 Coverage Results" MODIFIED="1747379025576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python introduction/lab 4 over" />
     <SUITE FILE_PATH="coverage/Lab1_Pycharm$Lab_2.coverage" NAME="Lab 2 Coverage Results" MODIFIED="1759730962315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Criptarea" />
+    <SUITE FILE_PATH="coverage/Lab1_Pycharm$sarcina_2_1_rsa.coverage" NAME="sarcina_2_1_rsa Coverage Results" MODIFIED="1765782346862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" />
   </component>
 </project>
